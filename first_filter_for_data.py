@@ -23,7 +23,7 @@ null_percentages_df.to_csv('data/percentages_nulles.csv', index=False)
 
 """
     pweight : Poids de la population (doit être combiné avec dweight ou pspwght).
-    dweight : Poids de conception.
+    dweight : Poids de conception. (design weight)
     cntry : Pays.
     idno : Numéro d'identification du répondant.
     edition : Édition.
